@@ -27,12 +27,12 @@
     "debug": "4",
     "nan": "^2.13.2",
     "ref": "github:SkaceKamen/ref#node-next",
-    "ref-struct": "lxe/ref-struct#node-12"
+    "ref-struct": "github:SkaceKamen/ref-struct#node-next"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "mocha": "*",
-    "ref-array": "lxe/ref-array#node-12"
+    "ref-array": "github:SkaceKamen/ref-array#node-next"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
